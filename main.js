@@ -12,3 +12,4 @@ function init() {
 }
 
 
+//arrays:  happyInputs, jokes, sadInputs, inspiration

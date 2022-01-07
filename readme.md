@@ -17,7 +17,7 @@ Display random messages from collection based on user's input.
     - eg. how are you feeling?
       - happy --> tell joke, 
       - sad --> inspire 
-      - etc
+      - other --> pick random
 - each input will pull from a different category of messages
 
 ## **_Implementation:_** 
