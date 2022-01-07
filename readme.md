@@ -2,8 +2,13 @@
 
 > *Codecademy Project*
 
+> [**Download Project ZIP**](https://github.com/ryan1431/mixed-messages/archive/refs/heads/master.zip)
+---
+
+Contents: 
 * [Objective](#objective)
 * [Implementation](#implementation)
+* [Instructions](#instructions)
 * [Languages](#languages)
 
 
@@ -23,8 +28,8 @@ Display random messages from collection based on user's input.
 ## **_Implementation:_** 
 
 ### **Setup**
-- simple index.html pulls script from main.js 2
-- main.js consistently loops a prompt which takes user input
+- simple index.html pulls script from main.js
+- main.js loops a prompt which takes user input
 & an alert with with the proper message output
 - variable will be stored containing the user input, and that
 will be used to determine the output message
@@ -36,14 +41,24 @@ quotes, etc) which contain strings of different messages
 - simple math.floor & random can pull out a message from the array
 and send it back to user with an alert message
 
+<br/>
 
-### **Optional bonus material**
-- input field & button functionality 
-- more elements in each category / array
-- styling of any sort
-- more than 3 categories
-- separate file for arrays 
-- thorough readme.md explanation
+### **Optional stuff**
+- [ ] input field & button functionality 
+- [x] more elements in each category / array
+- [ ] styling of any sort
+- [x] more than 3 categories
+- [x] separate file for arrays 
+- [x] descriptive readme.md
+
+<br/>
+
+### **Instructions**
+1. If you haven't already, [download](https://github.com/ryan1431/mixed-messages/archive/refs/heads/master.zip) the project ZIP file.
+2. Unzip the file & double click 'index.html'
+3. Enter an input into the field, and hit enter to see a response!
+
+<br/>
 
 ## **_Languages_**
 - HTML

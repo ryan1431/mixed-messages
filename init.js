@@ -1,6 +1,4 @@
-// input emotion === happy
-
-let happyInputs = "happy, great, good, wonderful, fantastic, beautiful, gorgeous, ecstatic, content, contented, gratified, pleased, satisfied, blissful, delighted, bliss, glad, joyful, joyous, jubilant, rejoicing, tickled, ecstatic, elated, enraptured, euphoric, overjoyed, rapturous, thrilled, appeased, mollified, pacified, placated, fortunate, lucky, blessed, favored, gifted, privileged, applicable, appropriate, apt, becoming, befitting, felicitous, fit, fitted, fitting, good, meet, pretty, proper, right, suitable, acceptable, adequate, decent, kosher, satisfactory, serviceable, cheerful, thankful, quality, cheery, cheary, calm, peaceful, at peace, peace, merry, joyful, jovial, jolly, gleeful, pleased, sublime".split(', ');
+let happyInputs = "happy, great, good, wonderful, fantastic, beautiful, gorgeous, ecstatic, content, contented, gratified, pleased, satisfied, blissful, slick, delighted, bliss, glad, joyful, joyous, jubilant, rejoicing, tickled, ecstatic, elated, enraptured, euphoric, overjoyed, rapturous, thrilled, appeased, mollified, pacified, placated, fortunate, lucky, blessed, favored, gifted, privileged, applicable, appropriate, apt, becoming, befitting, felicitous, fit, fitted, fitting, good, meet, pretty, proper, right, suitable, acceptable, adequate, decent, kosher, satisfactory, serviceable, cheerful, thankful, quality, cheery, cheary, calm, peaceful, at peace, peace, merry, joyful, jovial, jolly, gleeful, pleased, sublime, never better".split(', ');
 
 let joke = [
     "What's the best thing about Switzerland? \nIdk, but the flag's a big plus.", 
@@ -15,9 +13,7 @@ let joke = [
     "What did one hat say to the other?\nI'll go on a head."
 ];
 
-// input emotion === sad
-
-let sadInputs = "sad, unhappy, sorrowful, regretful, empty, depressed, downcast, miserable, downhearted, down, despondent, despairing, desolate, wretched, glim, glum, gloomy, dismal, blue, melancholy, melancholic, mournful, pissed off, pissed, disappointed, woeful, forlorn, crestfallen, heartbroken, broken-hearted, brokenhearted, awful, unfortunate, upset, distressed, troubled, perturbed, distrubed, unsettled, bad, cast down, crestfallen, dejected, disconsolate, doleful, down in the mouth, droopy, hangdog, heartsick, heartsore, heavyhearted, inconsolable, joyless, low, low-spirited, saddened, sorry, woebegone, hopeless, sunk, agonized, angry, irate, cross, annoyed, enraged, mad, irritated, resentful, irked, piqued, displeased, anxious, enfuriated, dark, dirty, filthy, up in arms, aggravated, snappy, snappish, shirty, wroth, hot, passionate, stormy, vex, furious, outraged, bent out of shape, ratty, edgy, eggy, aerated, wild, livid".split(', ');
+let sadInputs = "sad, unhappy, sorrowful, regretful, empty, depressed, downcast, miserable, downhearted, down, despondent, despairing, desolate, wretched, glim, glum, gloomy, dismal, blue, melancholy, melancholic, mournful, pissed off, pissed, disappointed, woeful, forlorn, crestfallen, heartbroken, broken-hearted, brokenhearted, awful, unfortunate, upset, distressed, troubled, perturbed, distrubed, unsettled, bad, cast down, crestfallen, dejected, disconsolate, doleful, down in the mouth, droopy, hangdog, heartsick, heartsore, heavyhearted, inconsolable, joyless, low, low-spirited, saddened, sorry, woebegone, hopeless, sunk, agonized, angry, irate, cross, annoyed, enraged, mad, irritated, resentful, irked, piqued, displeased, anxious, enfuriated, dark, dirty, filthy, up in arms, aggravated, snappy, snappish, shirty, shitty, shit, crappy, crapy, wroth, hot, passionate, stormy, vex, furious, outraged, terrible, bent out of shape, ratty, edgy, eggy, aerated, wild, livid, meh, could be better".split(', ');
 
 let inspiration = [
     `“Be yourself; everyone else is already taken.”\n― Oscar Wilde`,
@@ -34,14 +30,11 @@ let inspiration = [
     `“Success is not final, failure is not fatal: it is the courage to continue that counts.”\n- Winston S. Churchill`,
     `“When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.”\n- Helen Keller`,
     `“Start where you are. Use what you have. Do what you can.”\n- Arthur Ashe`,
-    `“Everyone has inside them a piece of good news. The good news is you don’t know how great you can be! How much you can love!”\n-Anne Frank`,
+    `“Everyone has inside them a piece of good news. The good news is you don't know how great you can be! How much you can love!”\n-Anne Frank`,
     `"When you make a mistake, respond to yourself in a loving way rather than a self-shaming way."\n- Ellie Holcomb`,
     `"You can't critize yourself into a version you can love"\n- Anon`
 ]
 
+let otherValid = ['okay', 'satisfactory', 'satisfied', 'reasonable', 'decent', 'egh', 'eghh', 'inbetween', 'not bad'];
 
-init();
-
-
-//sadInputs.forEach(x => console.log(x));
-
+init(); // Initialize loop in main.js
